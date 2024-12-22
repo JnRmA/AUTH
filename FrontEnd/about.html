@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>EduFord University</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html">
+                    <img src="imgs/logo.png" alt="">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   </ul> 
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+<!--about us content-->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the World's Largest University</h1>
+<h4>Our Vision</h4>
+<p>Eduford University envisions a world where education empowers individuals to reach their full potential and make a lasting impact on society. We aspire to be a global leader in education, renowned for our academic rigor, forward-thinking research, and unwavering commitment to student success. </p>
+
+<h4>Our Mission</h4>
+<p>At Eduford, our mission is to foster intellectual curiosity, critical thinking, and lifelong learning in every student. We aim to provide a comprehensive, diverse, and inclusive environment that equips graduates with the skills and knowledge they need to thrive in a rapidly changing world.</p>
+
+<h4>Academic Excellence</h4>
+<p>Eduford University offers a wide range of undergraduate, graduate, and doctoral programs across various disciplines. Our distinguished faculty members are dedicated to providing a transformative learning experience that challenges students to think critically, solve complex problems, and develop a global perspective. We believe in a hands-on approach to learning, where students are encouraged to engage with real-world issues through internships, research projects, and community involvement.</p>
+
+<h4>Research & Innovation</h4>
+<p>As a hub for innovation and research, Eduford University is at the forefront of addressing the world’s most pressing challenges. Our research initiatives span a broad range of fields, from technology and healthcare to the arts and humanities. We foster a collaborative environment where students and faculty work together to push the boundaries of knowledge, contribute to groundbreaking discoveries, and drive meaningful change.</p>
+
+<h4>Campus & Community</h4>
+<p>Located in a thriving academic and cultural center, Eduford University boasts state-of-the-art facilities, a beautiful campus, and a supportive community. Our students benefit from a diverse and inclusive environment, where they can engage in a wide range of extracurricular activities, leadership opportunities, and global exchange programs. We are committed to ensuring that every student has the resources and support they need to succeed academically, personally, and professionally.</p>
+
+<h4>Global Perspective</h4>
+<p>Eduford University values diversity and encourages students to embrace global perspectives. Our international partnerships and study abroad programs provide students with the opportunity to gain valuable cross-cultural experiences, enhancing their understanding of the interconnected world in which we live.</p>
+            <a href="blog.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="imgs/about.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+
+
+<!---Footer--->
+<section class="footer">
+    <h4>Eduford University</h4>
+    <p>Educating for a brighter tomorrow.</p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p><i class="fa fa-copyright"></i>Group Three</p>
+</section>
+
+
+
+
+
+
+
+
+
+       
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+
+
+
+
+    </body>
+</html> 
